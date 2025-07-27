@@ -154,13 +154,15 @@ img {
     }
 }
 
+
+/* RESP. PER SMARTPHONE */
 @media screen and (max-width: 480px) {
+
     .container {
         width: 100%;
         padding: 0 15px;
     }
 
-    /* LESSONS SECTION - vanno in verticale */
     .lessons .row {
         flex-direction: column;
     }
@@ -171,7 +173,6 @@ img {
         margin-bottom: 2rem;
     }
 
-    /* STEPS SECTION - vanno in verticale */
     .steps .row {
         flex-direction: column;
     }
